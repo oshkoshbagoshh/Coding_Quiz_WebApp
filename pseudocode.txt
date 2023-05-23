@@ -1,0 +1,29 @@
+create questionslist : question string, options, correct ans
+create question counter = 0
+Click on start button(attach event listener)
+   start timer from 75 secs
+        every sec time is going to decrement
+        display it on screen
+   show 1st question with options(function)
+Clicking on the answer options (attach event listener)
+    check if ans click by user matches with correct ans for question
+       display correct msg
+       check if we have time
+         if question counter < length of question array
+            increment the question counter 
+                 go to next question
+        else ||  if(timer === 0)
+        stop timer and grab the last sec left
+           display the score
+           form is going to take user initial and score and save it in local storage and display it on second html page.
+    if wrong ans
+       display wrong msg
+       decrement timer by 10
+       check if we have time
+       if question counter < length of question array
+            increment the question counter 
+            go to next question
+        else || if(timer === 0)
+            stop timer and grab the last sec left
+           display the score
+           form is going to take user initial and score and save it in local storage and display it on second html page.

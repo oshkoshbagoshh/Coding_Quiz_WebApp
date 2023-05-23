@@ -36,8 +36,8 @@ What are the steps required to install your project? Provide a step-by-step desc
     ```
  -->
  ### Mock Up
- ![Web app demo](./assets/images/04-web-apis-homework-demo.gif)
-04-web-apis-homework-demo.gif 
+<!--  ![Web app demo](./assets/images/04-web-apis-homework-demo.gif)
+04-web-apis-homework-demo.gif  -->
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.

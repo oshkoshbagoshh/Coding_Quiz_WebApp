@@ -23,7 +23,7 @@ Just click on the hosted website and play the game. No Installation needed.
 
 ## Usage
 
-TODO: Insert Link Here:
+[Live_Link](https://oshkoshbagoshh.github.io/Coding_Quiz_WebApp/)
 <!-- Provide instructions and examples for use. Include screenshots as needed. -->
 
 <!-- To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: -->

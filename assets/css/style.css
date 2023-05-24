@@ -1,0 +1,85 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* flex-wrap: wrap; */
+    /* display: flex: 1 1 auto;; */
+}
+/* Header  */
+
+/* #main-header {
+    display: block;
+    
+} */
+
+header{
+    display:flex;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:5%
+
+
+}
+
+
+p{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Start Button  */
+
+/* TODO: need to change it so that it disappears afterwordss  */
+#start-btn {
+    display:flexbox;
+    padding: 2%;
+    margin-left: 40%;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    /* display: hidden; */
+
+}
+
+::before {
+    /* ... */
+color: blueviolet;
+
+  }
+
+  /* hide the ubtton after pressing it  */
+  q::after {
+    display: none;
+    color: red;
+  }
+
+ 
+  #display-high-scores {
+    color:yellow;
+    background-color: blue;
+    display:flex;
+    position:absolute;
+    top:20px;
+    left:2px;
+    padding:1%;
+    
+  }
+
+  #timer {
+    font-size: 18pxpx;
+    font-weight: 200;
+    display:flex;
+    justify-content: flex-end;
+    position: absolute;
+    top:20px;
+    right:6px;
+    flex-wrap: wrap;
+    background-color: black;
+    color:red;
+    padding: 1%;
+
+}

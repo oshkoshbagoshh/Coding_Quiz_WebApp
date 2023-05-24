@@ -9,7 +9,7 @@
 /*
 
 
-// Pseudocode 
+//          Pseudocode 
 
  create questionslist : question string, options, correct ans
 
@@ -69,6 +69,16 @@ function handleClick() {
     // use setTimeout as part of web API
 
     timerID = setInterval(clockTick, 1000); // 1000 ms 
+    // if (clockTick <= 0) {
+    //   alert("GAME OVER!");
+    // }
+
+    // if (count <= 0) {
+    //   clearInterval(timer)
+    //   h2El.textContent = "Game Over";
+    //   losses++;
+    // }
+
 
 }
 
@@ -81,7 +91,7 @@ function clockTick() {
 startBtn.addEventListener('click', handleClick);
 
 
-// // count down 
+
 // if (count <== 0) {
 
 //     clearInterval(timer)
@@ -93,7 +103,7 @@ startBtn.addEventListener('click', handleClick);
 
 
 
-//   Questions:
+//   Questions: (zzDEPRECIATEED)
 
 // Questionlist array of objects 
 // var questionList = [
@@ -141,6 +151,7 @@ startBtn.addEventListener('click', handleClick);
 // ];
 // log to the console
 // console.log(questionList);
+
 // array for questions
 var questions = [
     {
@@ -153,16 +164,16 @@ var questions = [
       choices: ['quotes', 'curly brackets', 'parentheses', 'square brackets'],
       answer: 'parentheses',
     },
-    // {
-    //   title: 'Arrays in JavaScript can be used to store ____.',
-    //   choices: [
-    //     'numbers and strings',
-    //     'other arrays',
-    //     'booleans',
-    //     'all of the above',
-    //   ],
-    //   answer: 'all of the above',
-    // },
+    {
+      title: 'Arrays in JavaScript can be used to store ____.',
+      choices: [
+        'numbers and strings',
+        'other arrays',
+        'booleans',
+        'all of the above',
+      ],
+      answer: 'all of the above',
+    },
     {
       title:
         'String values must be enclosed within ____ when being assigned to variables.',
@@ -176,6 +187,8 @@ var questions = [
       answer: 'console.log',
     },
   ];
+
+
 // var stringQuestionlist = questionList.toString();
 // console.log(stringQuestionlist);
 
@@ -229,16 +242,57 @@ var userAnswer = buttonEl.value;
 if (userAnswer !== questions[currentQuestionIndex].answer) {
   // 
   count=count-15; //take away 15 seconds 
+  // var wrongAnswerMessage = alert("Wrong Answer!");
+  // wrongAnswerMessage(); // alert the user that they made the wrong choice 
+
+  // console.log("Wrong Answer");
+  currentQuestionIndex++;
+
+
 
 } 
-currentQuestionIndex++;
+getQuestion();
+
+// console.log(currentQuestionIndex);
+
+
+
+
+// end quiz ()
+// need to end the game IF time is up, or if currentQuestionIndex passes through all of the questions 
+// if statement 
+
 // add logic here !
 // add endquizlogic here
-// clearInterval
-getQuestion();
+// INSERT clearInterval
+// clearInterval();
+// getQuestion();
 
 //create end quiz function where they can save their score to the local storage
 //check when you run out of questions or  when time is up you
+// add score to local storage
+// stop timer and grab the last sec left
+// display the score
+// form is going to take user initial and score and save it in local storage and display it on second html page.
 
-}
+// TODO: Add function for endQuiz 
+//TODO: add function for keeping score to local storage
+//TODO: cleanup CSS and styling
+
+// function endQuiz() {
+  
+//   var gameOverMessage = document.createElement(h4)
+//   gameOverMessage.textContent = "Game Over!!";
+
+//   if (currentQuestionIndex >= 4 || count  === 0) {
+//     //game over!
+    
+
+  }
+
+
+
+
+
+
 // use inns

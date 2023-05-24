@@ -71,6 +71,6 @@ If your project has a lot of features, list them here.
 ## Tests/Issues
 
 <!-- Go the extra mile and write tests for your -->
-Need to fix issue where the score is not being kept and saved for the user.
-Need to clean up display of the HTML and CSS.
-Need to update logic so that the timer doesn't go past 0/
+* Need to fix issue where the score is not being kept and saved for the user.
+* Need to clean up display of the HTML and CSS.
+* Need to update logic so that the timer doesn't go past 0/

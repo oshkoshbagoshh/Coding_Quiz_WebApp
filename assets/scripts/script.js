@@ -69,6 +69,7 @@ function handleClick() {
     // use setTimeout as part of web API
 
     timerID = setInterval(clockTick, 1000); // 1000 ms 
+
     // if (clockTick <= 0) {
     //   alert("GAME OVER!");
     // }

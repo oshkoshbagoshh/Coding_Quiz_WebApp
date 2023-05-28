@@ -62,15 +62,28 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 
 ## Features
 <!-- 
+<<<<<<< HEAD
 If your project has a lot of features, list them here.
  -->
+=======
+If your project has a lot of features, list them here. -->
+
+* User Interface and interactive options
+* Navigation between the questions
+* Evaluation of Answers
+* 
+>>>>>>> 49cafbe (updated readme)
 ## How to Contribute
 
 <!-- If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer. -->
 
 ## Tests/Issues
 
+<<<<<<< HEAD
 <!-- Go the extra mile and write tests for your -->
 * Need to fix issue where the score is not being kept and saved for the user.
 * Need to clean up display of the HTML and CSS.
 * Need to update logic so that the timer doesn't go past 0/
+=======
+## Issues
+>>>>>>> 49cafbe (updated readme)
